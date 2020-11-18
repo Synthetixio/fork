@@ -1,9 +1,18 @@
 {
-	"version": "1.0.0",
-	"private": true,
-	"description": "",
+	"name": "@synthetixio/fork",
+	"version": "0.0.1",
+	"description": "Simple utility to fork the Synthetix protocol for testing and benchmarking",
 	"main": "index.js",
-	"dependencies": {},
+	"bin": {
+		"synthetix-fork": "index.js"
+	},
+	"dependencies": {
+		"@nomiclabs/hardhat-ethers": "2.0.0",
+		"@nomiclabs/hardhat-waffle": "2.0.0",
+		"commander": "6.2.0",
+		"hardhat": "2.0.3",
+		"synthetix": "2.32.3"
+	},
 	"devDependencies": {
 		"eslint": "7.1.0",
 		"eslint-config-prettier": "6.11.0",
