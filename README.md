@@ -1,5 +1,5 @@
-# JS Template
+# Synthetix fork
 
-Start a new project using me as a template!
+Fork Synthetix locally, powning the accounts you need.
 
-Run `npm init` to name and configure.
+Works best with an archive node provider: `npx @synthetixio/fork <provider-url>`
